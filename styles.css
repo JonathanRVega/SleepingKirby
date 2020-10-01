@@ -1,0 +1,158 @@
+body{
+  background: white;
+}
+
+.kirby{
+  width:200px;
+  height:280px;
+  margin:150px auto auto auto;
+}
+
+.body{
+  width:260px;
+  height:180px;
+  background:#fd99a7;
+  box-shadow: 0px 0px 0px 4px #521C09;
+  border-radius: 50% 50% 45% 40%;
+  position: absolute;
+  top: 120px;
+  left: 800px;
+  z-index: 2;
+  }
+
+.arm1{
+  width:120px;
+  height:60px;
+  background:#fd99a7;
+  box-shadow: 4px 2px 0px 2px #521C09;
+  border-radius: 50% 50% 45% 40%;
+  position: absolute;
+  left: 818px;
+  top: 238px;
+  z-index: 3;
+  transform: rotate(15deg);
+}
+
+.arm2{
+  width:120px;
+  height:80px;
+  background:#fd99a7;
+  box-shadow: 4px 2px 0px 2px #521C09;
+  border-radius: 50% 50% 45% 40%;
+  position: absolute;
+  left: 960px;
+  top: 200px;
+  z-index: 1;
+  transform: rotate(15deg);
+}
+
+.foot1{
+  width:180px;
+  height:80px;
+  background:red;
+  box-shadow: 0px 0px 0px 4px #521C09;
+  border-radius: 50% 20% 50% 50%;
+  position: absolute;
+  left: 725px;
+  top: 150px;
+  z-index: 1;
+  transform: rotate(-35deg);
+}
+
+.foot2{
+  width:180px;
+  height:80px;
+  background:red;
+  box-shadow: 0px 0px 0px 4px #521C09;
+  border-radius: 50% 20% 50% 50%;
+  position: absolute;
+  left: 765px;
+  top: 145px;
+  z-index: 0;
+  transform: rotate(-35deg);
+}
+
+.mouth{
+  width:6px;
+  height:10px;
+  background: #521C09;
+  border-radius: 50%;
+  position: absolute;
+  left: 970px;
+  top: 245px;
+  z-index: 4;
+}
+
+.eye1{
+  width:50px;
+  height:6px;
+  background: #521C09;
+  position: absolute;
+
+  left: 910px;
+  top: 220px;
+  z-index: 4;
+}
+
+.eye2{
+  width:50px;
+  height:6px;
+  background: #521C09;
+  position: absolute;
+
+  left: 980px;
+  top: 220px;
+  z-index: 4;
+}
+
+.text1{
+  font-family:helvetica;
+  font-size: 60px;
+  font-weight: 800;
+  Position: absolute;
+  left: 1050px;
+  top: 10px;
+  transform: rotate(-25deg);
+}
+
+.text2{
+  font-family:helvetica;
+  font-size: 40px;
+  font-weight: 800;
+  Position: absolute;
+  left: 1100px;
+  top: 10px;
+  transform: rotate(-25deg);
+}
+
+.text3{
+  font-family:helvetica;
+  font-size: 25px;
+  font-weight: 800;
+  Position: absolute;
+  left: 1140px;
+  top: 10px;
+  transform: rotate(-25deg);
+}
+
+.cheek1{
+  width:30px;
+  height:10px;
+  background:#eb6896;
+  border-radius: 50% 50% 45% 40%;
+  position: absolute;
+  top: 240px;
+  left: 910px;
+  z-index: 2;
+}
+
+.cheek2{
+  width:30px;
+  height:10px;
+  background:#eb6896;
+  border-radius: 50% 50% 45% 40%;
+  position: absolute;
+  top: 240px;
+  left: 1000px;
+  z-index: 2;
+}
